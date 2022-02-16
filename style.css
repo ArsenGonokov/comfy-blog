@@ -51,6 +51,7 @@ a:hover {
 }
 .article_card {
     width: 580px;
+    border-radius: 5px;
 
     
 }
