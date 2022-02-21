@@ -1,34 +1,42 @@
+html,
 body {
+    width: 1280px;
     font-family: "Roboto", sans-serif;
-    margin: 0px;
-    background-color: #f5e5e5;   
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
 }
 
-.site-name {
-    padding-top: 10px;
-    padding-bottom: 10px;
+header {
+    text-align: left;
     background-color: #C4D8FF;
 }
-h1 {
+
+main { 
+    margin: 0px;
+    padding: 0px;
+}
+.site_name {
+    width: 279px;
+    height: 42px;
     display: inline-block;
-    text-align: left;
     margin-left: 60px;
     margin-top: 19px;
     margin-bottom: 19px;
-    color: rgb(104, 180, 53);
+    margin-right: 108px;
 }
-.main-nav {
+.main_nav {
     display: inline-block;
+    height: 21px;
 }
 h2 {
-    margin-top: 136px;
     margin-bottom: 24px;
     padding-top: 10px;
 }
 ul {
     list-style: none;
     padding: 0;
-    margin-left: 108px;
     margin-top: 29px;
 }
 li {
@@ -38,27 +46,35 @@ li {
 }
 a {
     text-decoration: none;
+    color: #202020;
 }
 a:hover {
     text-decoration: underline;
-    color: red;
 }
-
-
+.nav_main_page {
+    text-decoration: underline;
+    color: #FF0000;
+}
 .last_articles {
     width: 580px;
     margin-left: 61px;
-    
-    
+    margin-top: 56px;
+    margin-bottom: 24px;  
 }
 .article_card {
     width: 580px;
-    border-radius: 5px;
-
-    
+    border-radius: 15px;
+    margin-bottom: 52px;
+    box-sizing: border-box;
+    overflow: hidden;   
+}
+.last_article_img {
+    width: 100%;
+    margin-bottom: 24px;
 }
 .article_card_description {
     padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 24px;
 }
 .article_card:nth-child(2n) {
@@ -71,24 +87,26 @@ a:hover {
 }
 article a {
     text-decoration: underline;
-    color: red;    
+    color: #FF0000;    
 }
 article a:hover {
     text-decoration: none;
 }
-img {
-    margin-bottom: 24px;
-}
+
 h3 {
     height: 28px;
     font-weight: 500;
+    margin-bottom: 12px;
 }
 time {
-    padding-top: 64px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #979797;
 }
 p {
     font-size: 18px;
     line-height: 21px;
+    margin-bottom: 12px;
 }
 footer {
     background-color: #C4D8FF;
